@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.country {
+  border: 1px solid blue;
+  text-align: center;
+}
+.flags-container img {
+  width: 50px;
+}
